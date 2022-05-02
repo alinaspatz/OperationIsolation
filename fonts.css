@@ -1,59 +1,59 @@
 @font-face {
     font-family: IBM SemiBoldItalic;
-    src: url("/fonts/IBMPlexMono-SemiBoldItalic.ttf");
+    src: url("fonts/IBMPlexMono-SemiBoldItalic.ttf");
   }
   @font-face {
     font-family: IBM SemiBold;
-    src: url("/fonts/IBMPlexMono-SemiBold.ttf");
+    src: url("fonts/IBMPlexMono-SemiBold.ttf");
   }
   
   @font-face {
     font-family: IBM Regular;
-    src: url("/fonts/IBMPlexMono-Regular.ttf");
+    src: url("fonts/IBMPlexMono-Regular.ttf");
   }
   @font-face {
     font-family: IBM Italic;
-    src: url("/fonts/IBMPlexMono-Italic.ttf");
+    src: url("fonts/IBMPlexMono-Italic.ttf");
   }
   @font-face {
     font-family: IBM SemiBoldItalic;
-    src: url("/fonts/IBMPlexMono-MediumItalic.ttf");
+    src: url("fonts/IBMPlexMono-MediumItalic.ttf");
   }
   @font-face {
     font-family: IBM Medium;
-    src: url("/fonts/IBMPlexMono-Medium.ttf");
+    src: url("fonts/IBMPlexMono-Medium.ttf");
   }
   @font-face {
     font-family: IBM LightItalic;
-    src: url("/fonts/IBMPlexMono-LightItalic.ttf");
+    src: url("fonts/IBMPlexMono-LightItalic.ttf");
 }
 @font-face {
   font-family: IBM Light;
-  src: url("/fonts/IBMPlexMono-Light.ttf");
+  src: url("fonts/IBMPlexMono-Light.ttf");
 }
   @font-face {
     font-family: Apple Regular;
-    src: url("/fonts/AppleGaramond.ttf");
+    src: url("fonts/AppleGaramond.ttf");
 }
   @font-face {
     font-family: Apple LightItalic;
-    src: url("/fonts/AppleGaramond-LightItalic.ttf");
+    src: url("fonts/AppleGaramond-LightItalic.ttf");
   }
   @font-face {
     font-family: Apple Light;
-    src: url("/fonts/AppleGaramond-Light.ttf");
+    src: url("fonts/AppleGaramond-Light.ttf");
   }
     @font-face {
         font-family: Apple Italic;
-        src: url("/fonts/AppleGaramond-Italic.ttf");
+        src: url("fonts/AppleGaramond-Italic.ttf");
   }
   
   @font-face {
     font-family: Apple BoldItalic;
-    src: url("/fonts/AppleGaramond-BoldItalic.ttf");
+    src: url("fonts/AppleGaramond-BoldItalic.ttf");
   }
 
   @font-face {
     font-family: Apple Bold;
-    src: url("/fonts/AppleGaramond-Bold.ttf");
+    src: url("fonts/AppleGaramond-Bold.ttf");
   }
