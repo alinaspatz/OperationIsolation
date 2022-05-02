@@ -81,7 +81,7 @@ p {
   }
   .date {
     color: #000000;
-    font-size: 6vw;
+    font-size: 5.2vw;
     margin-top: 1vw;
     line-height:5vw;
 
@@ -141,7 +141,7 @@ padding-right: 1vw;
   .lead {
     line-height: .9em;
       text-align: right;
-    font-size: 7.6vw;  
+    font-size: 7.2vw;  
     font-family: Apple Regular;
   }
   .leadcolumn2 {
@@ -149,6 +149,8 @@ padding-right: 1vw;
     text-align: left;
     line-height: 2vw;
 padding-left: 1.4vw;
+padding-right: .03vw;
+
 width: 57%;
 padding-top: 12.5vw;
     font-size: .9vw;  
