@@ -1,0 +1,128 @@
+
+
+@media screen and (max-width: 768px) {
+
+    * {
+        max-width: 460px;
+    }
+
+    body {
+        font-size: large;
+    }
+    
+    .leadcolumn2 {
+        max-width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        float: left;
+        text-align: left;
+      }
+
+      .leadcolumn1 {
+        max-width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+float: left;
+text-align: left;
+      }
+
+      .lead {
+        max-width: 100%;
+        font-size: 9vw;
+        float: left;
+        text-align: left;
+                margin-left: 0px;
+        margin-right: 0px;
+
+    }
+    .container {
+       padding:10px;
+    }
+
+    div.timelineToggle {
+       float:none;
+    }
+
+    .timelineEvent div.media {
+        display:none;
+        float:none;
+    }
+
+    .timelineMinor dt {
+       font-size:1.2em;
+       white-space: normal;
+    }
+
+    .timelineMinor dd h3 {
+       font-size:1em;
+       white-space: normal;
+    }
+
+    div#timelineContainer {
+    }
+
+    .timelineMinor dd {
+        margin-left:20px;
+        padding-left:0;
+        width:100%;
+    }
+
+    .timelineEvent .media p {
+       font-size:1em;
+    }
+
+    dl.timelineMinor {
+       float:none;
+       max-width:100%;
+    }
+
+    .timelineEvent p {
+       float:none;
+       width:100%;
+    }
+
+    .timelineEvent blockquote {
+       float:none;
+       width:200px;
+       font-size:1em;
+    }
+}
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+
+    * {
+        max-width: 300px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+  .leadcolumn2 {
+    max-width: 100%;
+    margin-right: 0px;
+    float: left;
+
+    margin-left: 0px;
+
+  }
+  .leadcolumn1 {
+    margin-right: 0px;
+float: left;
+    max-width: 100%;
+    margin-left: 0px;
+
+  }
+  .lead {
+    max-width: 100%;
+    font-size: 12vw;
+    margin-right: 0px;
+    float: left;
+
+    text-align: left;
+    margin-left: 0px;
+    
+  }
+  .logos{
+    width:80%;
+  }
+}

@@ -1,0 +1,381 @@
+
+canvas {
+    display: block;
+  }
+  .sketch {padding:0rem;margin:0rem;}
+
+  
+
+
+h3 {
+  font-size: 1.8em;
+  color: black;
+  margin: 10px 0 10px 10px;
+    margin-left: 3vw;
+  font-weight: 400px;
+    font-family: IBM Regular;
+}
+a:link,
+a:visited {
+  color: #7097af;
+  text-decoration: none;
+}
+a:hover {
+  color: #7DBADF;
+}
+a img {
+  border: none;
+}
+p {
+  margin: 0 0 10px 0px;
+  font-size: 1.5em;
+}
+
+.desc{font-size: 1.5em;
+  margin-bottom: 60px;}
+
+.clear {
+  clear: both;
+  line-height: 0;
+  font-size: 0;
+}
+
+
+.illustration {
+  width: 100%;
+  margin-bottom:5px;
+
+}
+
+
+
+
+.timeline-container {
+  margin-left: 2vw;
+  margin-top: 1vw;
+
+  margin-right: 2vw;
+  border-top: 1.8px solid black;
+
+  border-left: 1.8px solid black;
+   border-right: 1.8px solid black;
+}
+
+  
+  .container {
+    margin-left: 4vw;
+  /*   width: 90vw; */
+    margin-left: auto;
+    margin-right: auto;
+  
+    padding: 0px;
+    *zoom: 1;
+  }
+  h1 {
+    color: #000000;
+    font-size: 7vw;
+    padding-top:30px;
+    font-weight: 400;
+    font-family: Apple Light;
+    text-align: center;
+  }
+  .date {
+    color: #000000;
+    font-size: 7vw;
+    margin-top: .6vw;
+    line-height:6.6vw;
+
+    font-family: Apple Light;
+  }
+  .month {
+    color: #000000;
+    margin-bottom: 0;
+    font-size: 1.4vw;  
+    line-height: 2.6vw;
+    font-family: IBM Italic;
+  }
+
+  .event{
+    font-size: .9vw;
+    font-family: IBM Regular;
+
+  }
+
+  h2 {
+    font-size: 6vw;
+    font-weight: 400;
+    font-family: Apple Regular;
+  }
+  body {
+    background-color: #ffffff;
+    color: #000000;;
+    font-size: .2vw;
+    font-family: IBM Regular, sans-serif;
+    margin: 0px;
+    padding: 0;
+  }
+
+  
+/*   
+       img {        
+    display:block;
+          width: 50vw;
+    margin-left:auto;
+    margin-right:auto;
+  } */
+
+  
+
+  .leadrow:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .leadcolumn1 {
+    border-right: 1.8px solid black;
+padding-right: 1vw;
+    float: left;  
+    width: 40%;
+    padding-top: 4.4vw;
+  }
+  .lead {
+    line-height: .9em;
+      text-align: right;
+    font-size: 7.2vw;  
+      padding-right: 1vw;
+    font-family: Apple Light;
+  }
+  .leadcolumn2 {
+    float: right;
+    text-align: left;
+    line-height: 2vw;
+padding-left: 1.4vw;
+width: 57%;
+padding-top: 12.5vw;
+    font-size: .9vw;  
+    font-family: IBM Italic;
+  }
+ 
+
+  .row2:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .row2column1 {
+padding-right: 1vw;
+    float: left;  
+    padding-bottom: 0px;
+
+    width: 40.05%;
+    /* padding-top: 5.6vw; */
+  }
+  .row2column2 {
+    border-bottom: 1.8px solid black;
+
+    float: left; 
+    text-align: left;
+margin-left: 39.33vw;
+width: 25.05%;
+    font-size: .8vw;  
+    font-family: IBM Regular;
+    padding-bottom: 0px;
+
+  }
+  .row2column3 {
+    float: right;
+    text-align: left;
+padding-left: 1vw;
+width: 30%;
+padding-bottom: 0px;
+
+    font-size: .8vw;  
+    font-family: IBM Regular;
+  }
+
+
+  .row3:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .row3column1 {
+padding-right: 1vw;
+    float: left;  
+    width: 50%;
+    padding-top: 0px;
+
+  }
+  .row3column2 {
+    border-right: 1.8px solid black;
+   float: left;
+overflow: visible; 
+ justify-content: right; 
+    text-align: right;
+width: 66%;
+    font-size: .8vw;  
+    font-family: IBM Regular;
+    padding-top: 0px;
+  }
+  .row3column3 {
+    float: left;
+    padding-left: 1.4vw;
+    padding-top: 12vw;
+    width: 20vw;
+text-align: left;
+align-items: left;
+justify-content: left;
+    font-family: IBM Regular;
+  }
+
+  .media1{
+    width: 68%;
+    padding-right: -5vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+
+    float:right;
+    z-index: -1;
+  height: auto;
+  }
+
+  
+  .row4:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .row4column1 {
+    float: left;
+ width: 35%;
+ text-align: right;
+ align-items: right;
+ justify-content: right;
+
+  }
+  .row4column2 {
+    border-top: 1.8px solid black;
+    border-left: 1.8px solid black;
+
+    float: left;
+ overflow: visible; 
+  justify-content: left; 
+     text-align: left;   
+     padding-bottom: 12vw;
+
+     padding-left: 1vw;
+     width: 30%;
+     padding-top: 1vw;
+  }
+  .row4column3 {
+    float: right;
+    padding-left: 1.4vw;
+    padding-top: 17.2vw;
+    width: 10vw;
+text-align: left;
+align-items: left;
+justify-content: left;
+    font-size: 3em;  
+    font-family: IBM Regular;
+  }
+
+  .media2{
+    width:85%;
+    padding-right: 1vw;
+    float:right;
+    z-index: -1;
+  height: auto;
+  }
+
+  .row5:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .row5column1 {
+    float: left;
+ width: 35.1%;
+ text-align: right;
+ align-items: right;
+ justify-content: right;
+
+  }
+  .row5column2 {
+    border-top: 1.8px solid black;
+    float: left;
+    border-right: 1.8px solid black;
+
+  justify-content: right; 
+     text-align: right;   
+     padding-bottom: 1.6vw;
+     padding-RIGHT: 1vw;
+     padding-top: 1vw;
+     padding-left: 8vw;
+     width: 13%;
+     margin-top: -7vw;
+  }
+  .row5column3 {
+    float: left;
+    border-bottom: 1.8px solid black;
+    padding-left: .4vw;
+
+    margin-top: -14.3vw;
+    width: 29%;
+text-align: left;
+align-items: left;
+justify-content: left;
+    
+  }
+
+  .media3{
+    width:80%;
+    padding-right: 1vw;
+    float:left;
+    z-index: -1;
+  height: auto;
+  }
+  
+
+  .row6:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .row6column1 {
+    float: left;
+ width: 4%;
+ text-align: right;
+ align-items: right;
+ justify-content: right;
+
+  }
+  .row6column2 {
+    float: right;
+    /* border-left: 1.8px solid black; */
+  justify-content: left;  
+     text-align: left;   
+     height: 100px;
+     margin-top: 7.8vw;
+     width: 12.8%;
+  }
+  .row6column3 {
+    float: right;
+    border-right: 1.8px solid black;
+    border-bottom: 1.8px solid black;
+
+    /* margin-right: 2.4vw; */
+    width: 40%;
+    height: 100px;
+text-align: right;
+align-items: right;
+justify-content: right;
+    
+  }
+
+  .media4{
+    width:80%;
+    padding-right: 1vw;
+    float:left;
+    z-index: -1;
+  height: auto;
+  }
