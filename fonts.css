@@ -57,3 +57,230 @@
     font-family: Apple Bold;
     src: url("fonts/AppleGaramond-Bold.ttf");
   }
+
+
+
+
+/* .leadrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.leadcolumn1 {
+  border-right: 1.8px solid black;
+padding-right: 1vw;
+  float: left;  
+  width: 40%;
+  padding-top: 4.4vw;
+}
+.leadcolumn2 {
+  float: right;
+ 
+width: 57%;
+text-align: left;
+line-height: 2vw;
+padding-left: 1.4vw;
+padding-right: .03vw;
+padding-top: 12.5vw;
+  font-size: .9vw;  
+  font-family: IBM Italic;
+}
+
+
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row2column1 {
+padding-right: 1vw;
+  padding-bottom: 0px;
+
+  width: 40.05%;
+  float: left;  
+}
+.row2column2 {
+  width: 25.05%;
+
+  float: left; 
+  border-bottom: 1.8px solid black;
+  text-align: left;
+margin-left: 39.33vw;
+  font-size: .8vw;  
+  font-family: IBM Regular;
+  padding-bottom: 0px;
+
+}
+.row2column3 {
+  float: right;
+  text-align: left;
+padding-left: 1vw;
+width: 30%;
+padding-bottom: 0px;
+
+  font-size: .8vw;  
+  font-family: IBM Regular;
+}
+
+
+.row3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row3column1 {
+
+  float: left;  
+  width: 50%;
+  padding-top: 0px;
+  padding-right: 1vw;
+
+}
+.row3column2 {
+  border-right: 1.8px solid black;
+ 
+justify-content: right; 
+  text-align: right;
+  font-size: .8vw;  
+  font-family: IBM Regular;
+  padding-top: 0px;
+  width: 66%;
+  float: left;
+overflow: visible; 
+}
+.row3column3 {
+  width: 20vw;
+  float: left;
+  padding-left: 1.4vw;
+  padding-top: 12vw;
+text-align: left;
+align-items: left;
+justify-content: left;
+  font-family: IBM Regular;
+} */
+
+
+/* 
+
+.row4:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row4column1 {
+  float: left;
+width: 35%;
+text-align: right;
+align-items: right;
+justify-content: right;
+
+}
+.row4column2 {
+  border-top: 1.8px solid black;
+  border-left: 1.8px solid black;
+
+ 
+justify-content: left; 
+   text-align: left;   
+   padding-bottom: 12vw;
+   padding-top: 1vw;
+
+   padding-left: 1vw;
+   width: 30%; float: left;
+   overflow: visible; 
+}
+.row4column3 {
+  float: right;
+  width: 10vw;
+
+  padding-left: 1.4vw;
+  padding-top: 17.2vw;
+text-align: left;
+align-items: left;
+justify-content: left;
+  font-size: 3em;  
+  font-family: IBM Regular;
+}
+
+
+.row5:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row5column1 {
+ 
+width: 35.1%;
+ float: left;
+text-align: right;
+align-items: right;
+justify-content: right;
+
+}
+.row5column2 {
+  border-top: 1.8px solid black;
+  float: left;
+  border-right: 1.8px solid black;
+
+justify-content: right; 
+   text-align: right;   
+   padding-bottom: 1.6vw;
+   padding-RIGHT: 1vw;
+   padding-top: 1vw;
+   padding-left: 8vw;
+      margin-top: -7vw;
+
+   width: 13%;
+}
+.row5column3 {
+    width: 29%;
+
+  float: left;
+  border-bottom: 1.8px solid black;
+  padding-left: .4vw;
+
+  margin-top: -14.3vw;
+text-align: left;
+align-items: left;
+justify-content: left;
+  
+}
+
+
+
+.row6:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row6column1 {
+  float: left;
+width: 4%;
+text-align: right;
+align-items: right;
+justify-content: right;
+
+}
+.row6column2 {
+  float: right;
+justify-content: left;  
+   text-align: left;   
+   height: 100px;
+   margin-top: 7.8vw;
+   width: 12.8%;
+}
+.row6column3 {
+  float: right;
+  border-right: 1.8px solid black;
+  border-bottom: 1.8px solid black;
+  width: 40%;
+  height: 100px;
+text-align: right;
+align-items: right;
+justify-content: right;
+  
+} */
+
+
+
+
