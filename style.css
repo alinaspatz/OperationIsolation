@@ -356,6 +356,9 @@ text-align:right;}
 
   .k3 { grid-area: k3;
       padding: .9vw;
+
+padding-right:0vw;
+margin-right: -.6vw;
     border-left: 1.8px solid black}
   
   .l {
@@ -1044,8 +1047,6 @@ height: auto;
 margin-left: -.8vw;  
 float:left;
 padding-top:6vw;
-padding-right:1vw;
-
   z-index: -1;
 height: auto;
 }
