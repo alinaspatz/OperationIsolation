@@ -1,0 +1,711 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--
+      This is the page head - it contains info the browser uses to display the page
+      You won't see what's in the head in the page
+      Scroll down to the body element for the page content
+    -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link rel="icon" href="journalism-11.svg" /> -->
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+    <title>Operation Isolation</title>
+    <meta
+    name="description"
+    content="A visual timeline of the deliberate destruction of independent media and civil rights in Russia." />
+   
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="fonts.css" />
+    <link rel="stylesheet" href="media.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js" integrity="sha512-w1Bktzax55ZbjW5Mqjz8+mKz4KqRjEUU35Dpq/ath29yskKqIGwNIHiFNp03m/OiJWDXvdQ1/g6aV+l4PeVO7Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>    
+  
+    <style>
+  
+      .event{
+        font-size: .92vw;
+        font-family: IBM Regular;
+    
+      }</style>
+</head>
+<body style="background-image:url('media/wall.png');
+  background-repeat: repeat-y;
+background-size:contain;
+background-position:center;
+">
+  
+    <!-- <p class="horizon"><br>
+        <hr>
+    </p> -->
+
+    <div id="timeline" class="timeline-container">
+
+        <div class="container">
+        
+        
+
+        
+          <div class="container2">
+<!-- 
+            <div class="a">
+              <div class="a1">
+                <p class="lead" >OPERATION<br>ISOLATION</p>
+              </div>
+              <div class="a2">
+                <p>
+                  A visual timeline of the deliberate<br>destruction of independent media in Russia. <br> </p>
+                  <p style="font-size: .9vw;  font-family: IBM Regular;"> Project by Alina Spatz, RISD class of 2024.
+                  </p>
+              </div>
+              <div class="a3"></div>
+            </div>
+
+            <div class="b">
+              <div class="b1"></div>
+              <div class="b2"></div>
+              <div class="b3"></div>
+            </div>
+
+            <div class="c">
+              <div class="c1"></div>
+              <div class="c2">          <img src="media/1.gif" class="media1" >
+              </div>
+              <div class="c3">
+                <p class="date">2000</p>
+                <p class="month">January 1, 2000</p>
+                <p  class="event">President Boris Yeltsin resigns and gives the presidency to Prime Minister, and former KGB officer, Vladimir Putin. Months later Putin wins the 2000 presidential election. </p>
+             
+              </div>
+            </div>
+          
+            <div class="d">
+              <div class="d1">            <img src="media/2.gif" class="media2" >    
+              </div>
+              <div class="d2"> 
+                <p class="month">May 11, 2000</p>
+                <p class="event">Media Most, the parent company of Russia's<br>largest independent TV network, is raided. </p>
+              </div>
+              <div class="d3"></div>
+            </div>
+
+            <div class="e">
+              <div class="e1"></div>
+
+              <div class="e2">
+                <p class="month">June, 2000</p>
+              <p class="event">Vladimir Gusinsky, the owner of Media Most, is arrested. To get out, he gives control of the NTV independent channel to state-dominated gas monopoly Gazprom. </p>
+                </div>
+
+              <div class="e3">      
+                          <img src="media/3.gif" class="media3" >    
+              </div>
+            </div> -->
+
+            <!-- <div class="f">
+              <div class="f1">
+                <p class="date">2003</p> <img src="media/7.gif" class="media7" >  
+              </div>
+
+              <div class="f2"> <p class="date">2002</p>
+                <p class="month">March 8, 2002</p>
+                <p  class="event">Natalya Skryl, a business reporter for Nashe Vremya, is murdered.</p>
+             </div>
+
+              <div class="f3"> <p class="month">September 19, 2001</p>
+                <p class="event">Valery Ivanov, editor of the independent newspaper Tolyattinskoye Obozreniye who exposed government corruption, is murdered. </p>
+            </div>
+
+              <div class="f4"> <p class="month">July, 2000</p>
+              <p class="event">Igor Domnikov, Novaya Gazeta reporter and special-projects editor, is murdered.</p>
+      <img src="media/4.gif" class="media4" >  
+            </div>
+
+            </div>
+
+
+            <div class="g">
+              <div class="g1">
+                <p class="month">June 23, 2003</p>
+              <p class="event">TVS, Russia's only remaining independent TV station, is taken off air </p>
+              <p class="month">April 29, 2002</p>
+              <p class="event">Valery Ivanov, editor of the independent newspaper Tolyattinskoye Obozreniye who exposed government corruption, is murdered.</p>
+          </div>
+
+
+              <div class="g2"> <img src="media/5.gif" class="media5" >
+     <img src="media/6.gif" class="media6" >  
+              </div>
+
+              <div class="g3"></div>
+            </div> -->
+<!-- 
+
+
+            <div class="h">
+              <div class="h1"><img src="media/7.5.gif" class="media7-5" ></div>
+              <div class="h2">
+                <p class="date">2003</p>
+              <p class="month">June 23, 2003</p>
+              <p class="event">TVS, Russia's only remaining independent<br>TV station, is taken off air </p>
+              </div>
+              <div class="h3"><br><br><br><br><br> <p class="date">2004</p>
+                <p class="month">March, 2004</p>                <p class="event">Vladimir Putin is re-elected for a second term. </p>  
+              </div>
+            </div>
+
+            <div class="ho">
+              <div class="ho1"></div>
+              <div class="ho2">
+                </div>
+              <div class="ho3"></div>
+            </div>
+
+
+            <div class="i">
+
+              <div class="i1"> -->
+                <!-- <p class="month">October 9, 2003</p>
+                <p class="event">Aleksei Sidorov, Tolyattinskoye Obozreniye editor who exposed organized crime and government corruption, is murdered. </p>
+                <img src="media/8.gif" class="media8" > -->
+              <!-- </div>
+
+              <div class="i2">   
+
+                <p class="date">2005</p> 
+                <p class="month">August, 2005</p>
+                <p class="event">Moscow bans journalists of the ABC from working in Russia after the network aired an interview with a leader of the Chechen independence movement. </p>  
+                <img src="media/15.gif" class="media15" >
+                </div>
+
+              <div class="i3">  <img src="media/9.png" class="media9" ><br></div>
+            </div>
+
+
+            <div class="j">
+              <div class="j1"></div>
+              <div class="j2"></div>
+              <div class="j3"></div>
+            </div>
+
+
+            <div class="k">
+              <div class="k1">  
+                <img src="media/17.3.gif" class="media17-3" > 
+                </div>
+
+              <div class="k2">   
+                <p class="month">October, 2006</p>t
+                <p class="event">Journalist Anna Politikovskaya, known for her opposition to Russia's invasion in Chechnya, is shot dead in a contract killing.</p>  
+             
+                <img src="media/17.gif" class="media17" >            
+              </div>
+
+              <div class="k3"> 
+                <p class="date" style="line-height:0em; margin-top:-0.1vw;">2006</p> 
+
+                   <img src="media/17.9.gif" class="media17-9" >      
+                <p class="event" style="margin-top:22.5vw;"> <br>Since 2006, there are 63 violent attacks and 20 killings of Russian journalists on record. <br><br></p> 
+               -->
+                <!-- <p class="month">June, 2004</p>
+                <p class="event">Maksim Maksimov, a reporter with the St. Petersburg weekly Gorod who was investigating reports of corruption, dissapeared and has since been declared dead. </p>  
+                <p class="month">July, 2004</p>
+                <p class="event">Paul Kiebnikov, editor of Russian Forbes, is murdered. </p>  
+               -->
+               
+               <!-- </div> -->
+              <!-- <div class="k4">     <img src="media/10.gif" class="media10" >
+                <img src="media/11.gif" class="media11" > -->
+              <!-- </div>
+            </div>
+
+
+            <div class="l">
+              <div class="l1"></div>
+              <div class="l2"></div>
+              <div class="l3"></div>
+            </div> -->
+
+
+            <!-- <div class="m">
+
+              <div class="m1">
+                <p class="date">2006</p> 
+                <p class="month">October, 2006</p>
+                <p class="event">Prominent journalist and political activist Anna Politikovskaya, known for her opposition to the Chechen conflict and Russian authorities, is shot dead in an apparent contract killing. Since 2006, there have been 20 recorded journalists’ killings and 63 violent attacks on reporters.</p>  
+              </div>
+              <div class="m2"> 
+              </div>
+              <div class="m3">
+               
+              </div>
+            
+            </div> -->
+<!-- 
+
+            <div class="n">
+              <div class="n5">
+               
+                <img src="media/20.png" class="media20" >
+              </div>
+              <div class="n1">
+                <p class="date" style="margin-top:-2.2vw; ">2008</p> 
+
+                <p class="month">March 2, 2008</p>
+                <p class="event">As he was then constitutionally limited to two consecutive presidential terms, Putin is elected as prime minister under president Dmitry Medvedev.</p> 
+              
+              </div>
+               
+              <div class="n2">
+                <p class="date"style="text-align:right;padding-top:3.8vw; margin-right:8vw;">2009</p> 
+          
+                <p class="month" style="text-align:right; margin-right:8vw;">December, 2009</p>
+                <p class="event" style="text-align:right;  margin-right:8vw;">Independent, international, and Islamic Chechen internet agency kavzaccenter.ru is blocked. </p>  
+                  </div>
+                  
+                 <div class="n3"><img src="media/23.gif" class="media23" >
+                </div>
+            </div>
+
+          
+            <div class="o">
+              <div class="o1"> </div>
+              <div class="o2"></div>
+
+              <div class="o3">                <p class="date" style="margin-bottom:-1vw;">2012</p> 
+
+             
+            </div>
+            </div>
+
+            <div class="p">
+              <div class="p1">
+               
+                <img src="media/26.png" class="media26" style="padding-right: 1.5vw;" >
+                <p class="month"style="padding-right: 1.5vw;margin-left: 3vw;">July, 2012</p>
+                <p class="event" style="padding-right: 2vw;padding-bottom:1vw;margin-left: 3vw;">Libel, or written defamation, is re-criminalised. </p>  
+
+                 <img src="media/26.5.png" class="media26-5" style="padding-right: 1.5vw;" >
+                <p class="month"style="padding-right: 1.5vw;margin-left: 3vw;">November, 2012</p>
+                <p class="event"style="padding-right: 2vw;margin-left: 3vw;padding-bottom:1vw;">The foreign agent law, which applies to non-government organizations that receive international funds or donations, takes effect. It demonizes public advocacy groups, especially those that challenge the government.  </p>  
+                <img src="media/27.png" class="media27"style="padding-right: 1.5vw;" >
+                <p class="month"style="padding-right: 1.5vw;margin-left: 3vw;">November, 2012</p>
+                <p class="event"style="padding-right: 2vw;margin-left: 3vw;padding-bottom:1vw;">The internet blacklist law takes effect. It is abused to block criticism of the federal government and local administrations.   </p>  
+
+               
+              </div>
+
+              <div class="p2"> 
+                <p class="month">March, 2012</p>
+                <p class="event">Vladimir Putin is re-elected. Evidence of manipulated elections, erasable ballot pens, and ballot stuffing is filmed and uploaded to the internet. </p>  
+              
+                 <img src="media/25pen.gif" class="media25pen" >
+                 <img src="media/25.gif" class="media25" >
+
+              </div>
+
+              <div class="p3">
+               
+                <img src="media/25.1.gif" class="media25-1" >
+                <p class="event" style="width:60%; margin-left:1vw; padding-top: 29vw;">The government quickly cracks <br>down on election protesters <br>and dissidents, launching persecutions against mass media <br>and individual Russians. </p>  
+
+              </div>
+            </div>
+
+
+            <div class="q">
+              <div class="q1">
+                <p class="month" style="margin-top:-1.3vw">March, 2013</p>
+                <p class="event">The websites of Grani and Ezhednevny <br>Zhurnal are blocked. </p>  
+                <img src="media/29.1.gif" class="media29-1" >
+              </div>
+              <div class="q2">               
+                 <p class="date"style="margin-top:0vw">2013</p> 
+                <p class="month">June, 2013</p>
+                <p class="event">The Gay propaganda law is passed. It bans the distribution of information about LGBT people to minors.</p>  
+                <img src="media/30.gif" class="media30" >
+              </div>
+
+              <div class="q3">
+                <p class="month">November, 2013</p>
+                <p class="event">The Euromaidan protests, known as “the revolution of dignity” against the Putin-backed government, begin in Ukraine. In February 2014, president Viktor Yanukovych flees the country. </p>  
+                <img src="media/30.5.gif" class="media30-5" >
+
+               
+              </div>
+            </div>
+
+            <div class="r">
+              <div class="r1">
+                <img src="media/32.png" class="media32" >
+                <p class="month" style=" padding-right: 2vw;">May, 2014</p>
+                <p class="event" style="margin-left:8vw;  padding-right: 2vw;">The bloggers law is passed. It gives blogs the restrictions of major publications, including a ban on anonymity and legal responsibility for comments. </p>  
+              </div>
+              <div class="r2">
+                <img src="media/33.gif" class="media33" >
+                <p class="month">March, 2014</p>
+                <p class="event">Alexei Navalny's blog, Kasparov.ru is blocked by the government for "making calls for unlawful activity and participation in mass events" </p>  
+              </div>
+              <div class="r3">  
+                <p class="month"style="  margin-top: 1vw;" >March, 2014</p>
+                <p class="event"> Putin takes advantage of Ukraine's destabalized government and invades and annexes Crimea. </p>  
+                <img src="media/31.gif" class="media31" >
+              </div>
+            </div>
+
+
+            <div class="s">
+              <div class="s1">
+                <p class="date">2015</p> 
+                    </div>
+              <div class="s2">
+                <img src="media/34.gif" class="media34" >
+              </div>
+              <div class="s3"> <p class="month"style="margin-left:-6vw;padding-top:.8vw;">October, 2014</p>
+                <p class="event"style="margin-left:-6vw;">The Internet Archive's Wayback <br>Machine website is blocked. </p>  
+         </div>
+            </div>
+
+
+            <div class="t">
+              <div class="t1"></div>
+              <div class="t2"></div>
+              <div class="t3"></div>
+            </div>
+
+
+            <div class="u">
+              <div class="u1">
+                <p class="month"style="margin-top:-.6vw;">September, 2015</p>
+                <p class="event"style="padding-left:19vw;"> Russia begins its military intervention in the Syrian civil war, contributing to the untold suffering of millions of Syrians.</p>  
+                <img src="media/35.gif" class="media35" >
+
+              </div>
+              <div class="u2">  
+                <p class="date"style="padding-top:1vw;">2016</p> 
+                <p class="month">August 4, 2016</p>
+                <p class="event">LinkedIn is blocked in Russia. </p> 
+                <img src="media/36.gif" class="media36" >
+ 
+           </div>
+              <div class="u3">                              <p class="date"style=" padding-right: .8vw;    margin-left: -2vw;">2017</p> 
+
+                  <img src="media/37col.png" class="media37col" > 
+                <p class="month"style="padding-top:6.5vw;">April, 2017</p>
+                <p class="event">An envelope with the return<br> address "Grozny" and white powder<br> inside is sent to Novaya Gazeta. </p>  
+              </div>
+            </div>
+
+
+            <div class="v">
+
+              <div class="v1"> <img src="media/42.png" class="media42" >
+              <p class="month">November, 2018</p>
+              <p class="event">The New Times magazine is fined 22 million rubles, the largest fine in the history of Russian media.</p>  
+      </div>
+              <div class="v2">
+                <p class="date"style="margin-top:0.3vw">2018</p> 
+                <img src="media/41.png" class="media41" >
+                <p class="month">October, 2018</p>
+                <p class="event" style="margin-left: 3vw;">Novaya Gazeta is sent a severed ram’s head, funeral wreath, and threatening notes. </p>  
+      </div>
+              <div class="v3">
+              <p class="month">March, 2018</p>
+              <p class="event">Vladimir Putin is re-elected. More evidence of <br>ballot stuffing and election fraud is filmed.</p>  
+              <img src="media/39.gif" class="media39" >   </div>
+            </div>
+ -->
+
+            <div class="w">
+              <div class="w1"></div>
+                
+              <div class="w3"></div>
+            </div>
+
+
+            <div class="x">
+
+              <div class="x5">
+                <img src="media/46.png" class="media46" >  
+                <p class="month">December, 2019</p>
+                <p class="event">The foreign agent law is updated to apply to any private individual. </p>  
+             </div>
+              <div class="x1">
+                <img src="media/45.png" class="media45" >   
+                 <p class="month">October, 2019</p>
+                 <p class="event">The “sovereign internet” law is passed. It gives the government power to automatically block content and reroute internet traffic. </p>  
+              </div>
+              <div class="x2" style="border-top: none; " ">
+                <img src="media/43.png" class="media43" >   
+                <p class="month">March, 2019</p>
+                <p class="event">Bill fining those who spread "fake news" and "show disrespect to the state authorities" is passed. </p>  
+         </div>
+              <div class="x3" >
+   <p class="date" style="margin-top: 6vw;">2019</p> 
+   </div>
+  </div>
+
+
+            <div class="y">
+              <div class="y1">
+             <p class="date" style="margin-top:-1vw;">2020</p> 
+                  <p class="month">August, 2020</p>
+                  <p class="event">Alexey Navalny, Russian opposition leader, is evacuated to Germany after most likely being poisoned with Novichok nerve agent, a Soviet-era chemical weapon. </p>  
+              </div>
+              <div class="y2">
+                <img src="media/46.3.gif" class="media46-3" >  
+                <img src="media/46.4.gif" class="media46-4" >  
+
+              </div>
+              <div class="y3"> <p class="month">December, 2020</p>
+                <p class="event">Navalny ally Lyubov Sobol's apartment is raided after she allegedly visits the spy accused of poisoning him.</p>  
+           </div>
+            </div>
+
+
+
+            <div class="z">
+              <div class="z1">
+                <img src="media/47.gif" class="media47" >  
+
+              </div>
+              <div class="z2">
+                <p class="date">2021</p> 
+                <p class="month">January 17, 2021</p>
+                <p class="event">Navalny returns to Russia and is immediately arrested for allegedly violating parole. In 2022 he will be sentenced to at least 9 more years in prison. </p>  
+        
+              </div>
+              <div class="z3">
+                <img src="media/46.5.gif" class="media46-5" >  
+              </div>
+            </div>
+
+
+            <div class="za">
+              <div class="za1">
+                <img src="media/48.gif" class="media48" >  
+
+              </div>
+              <div class="za2">
+                <p class="month">March 15, 2021</p>
+                <p class="event">A masked biker strikes Novaya Gazeta's building entrance with an unknown chemical substance.</p>  <br>
+                <p class="month" style="margin-top:4.6vw;">April, 2021</p>
+                <p class="event">Putin signs a law that will allow him to run for reelection twice more, potentially extending his presidency to 2036. </p>  
+        
+              </div>
+              <div class="za3">
+                <img src="media/50.gif" class="media50" >  
+                <p class="month"style="margin-left:-.4vw">August 5, 2021</p>
+                <p class="event"style="margin-left:-.4vw">Open Media and MBKh Media close due to fears of criminal prosecution after being blocked. </p>  
+        
+     </div>
+              <div class="za4">
+                <img src="media/51.gif" class="media51" >  
+                <p class="month">December, 2021</p>
+                <p class="event">Memorial International and Memorial human rights groups are liquidated. </p>  
+        
+              </div>
+            </div>
+            <div class="zb">
+              <div class="zb1"></div>
+              <div class="zb2">                 <p class="date" style=" margin-left:-4vw; ">2022</p> 
+         
+              </div>
+              <div class="zb3">   </div>
+            </div>
+
+
+            <div class="zc">
+              <div class="zc1">
+                <img src="media/51.5.gif" class="media51-5" >  
+             
+              </div>
+                <div class="zc2">
+                <p class="month">February 24, 2022</p>
+                <p class="event">Russia launches a full-scale assault on Ukraine. Ukrainian President Volodymyr Zelenskyy orders a general mobilization. </p>  
+                <img src="media/51.5(3).gif" class="media51-5-3" >  
+              </div>
+              <div class="zc3">
+                <img src="media/51.5(2).gif" class="media51-5-2" >  
+              </div>
+            </div>
+
+
+            <div class="zd">
+              <div class="zd1">              
+                  <img src="media/53.2.gif" class="media53-2" >  
+              </div>
+              <div class="zd2">
+                <img src="media/52.1.gif" class="media52-1" >  
+                <img src="media/52.2.gif" class="media52-2" >
+              </div>
+              <div class="zd3">
+                <p class="month">March, 2022</p>
+                <p class="event"style="margin-right:-13vw;">Echo of Moscow, Dozhd, BBC News, Voice of America, Radio Free Europe, Deutsche Welle, The New Times Magazine, Meduza, 200RF, Current Time, Google News, Facebook, Twitter, Instagram, Bellingcat, and countless other media outlets and websites are blocked.<br><br>
+          Television is the only news source for most Russians. It is controlled by the Kremlin and pumps out misinformation and war propaganda. </p>  
+                <img src="media/52.7.gif" class="media52-7" >  
+              </div>
+              <div class="zd4">
+
+              </div>
+            </div>
+
+
+
+
+
+            <div class="ze">
+              <div class="ze1">
+                <img src="media/52.9.gif" class="media52-9" >  
+                <img src="media/53.4.gif" class="media53-4" >  
+                <img src="media/52.5.gif" class="media52-5" >  
+
+              </div>
+              <div class="ze2">
+                <img src="media/52.4.gif" class="media52-4" >  
+                <img src="media/53.3.gif" class="media53-3" >  
+                <img src="media/53.9.gif" class="media53-9" >  
+
+              </div>
+              <div class="ze3">
+                <img src="media/53.1.gif" class="media53-1" >  
+                <img src="media/52.8.gif" class="media52-8" >  
+                <img src="media/53.7.gif" class="media53-7" >  
+
+              </div>
+              <div class="ze4">                <img src="media/52.3.gif" class="media52-3"style="margin-top:-6vw;" >  
+
+                <img src="media/53.5.gif" class="media53-5" >  
+                <img src="media/53.gif" class="media53" >  
+
+              </div>
+            </div>
+
+
+
+            <div class="zf">
+              <div class="zf1"></div>
+              <div class="zf2">
+                <p class="month">March, 2022</p>
+                <p class="event">Russia's justice ministry cancels the registration of amnesty international and Human Rights Watch.</p>  
+                <img src="media/54.1.gif" class="media54-1" >  
+
+              </div>
+              <div class="zf3">
+                <img src="media/54.2.gif" class="media54-2" >  
+
+              </div>
+              <div class="zf4"></div>
+            </div>
+
+
+            <div class="zg">
+              <div class="zg1"></div>
+              <div class="zg2">
+                <p class="month"style="margin-top:-2vw;">March, 2022</p>
+                <p class="event"style="width:60%;">Infromation that goes against the government’s narrative about what they call a “special military operation” in Ukraine is criminalized. "War" and "invasion" are words that can result in a prison sentence of up to 15 years. </p>  
+                <img src="media/56.png" class="media56png" >  
+</div>
+            </div>
+
+
+            <div class="zh">
+              <div class="zh1">
+                <img src="media/56.gif" class="media56gif" >  
+
+              </div>
+              <div class="zh2">
+                 <p class="month">April 7, 2022</p>
+                <p class="event">Russia is suspended from the United Nations Human Rights Council.</p>  
+</div>
+            </div>
+          </div>
+          
+          
+
+          </div>
+          </div>
+        </div>
+
+      <!-- <div class="leadcolumn1" >
+        <p class="lead" >OPERATION<br>ISOLATION</p>
+      </div>
+
+      <div class="leadcolumn2" >
+       <p>
+        A visual timeline of the deliberate destruction<br>of independent media and human rights in Russia.
+        </p>
+      </div>
+    </div>
+
+    <div class="row2">
+        
+        <div class="row2column1">      
+        </div>
+        <div class="row2column2">     
+        </div>
+
+        <div class="row2column3">  
+        </div>
+    </div>
+
+    <div class="row3">   
+        <div class="row3column1">        
+        </div>
+        <div class="row3column2">    
+          <img src="media/1.gif" class="media1" >
+          </div> 
+          <div class="row3column3">  
+            <p class="date">2000</p>
+            <p class="month">January 1, 2000</p>
+            <p  class="event">President Boris Yeltsin resigns and gives the presidency to Prime Minister, and former KGB officer, Vladimir Putin. Months later Putin wins the 2000 presidential election. </p>
+          </div>  
+        </div>
+
+        <div class="row4">   
+          <div class="row4column1">    
+            <img src="media/2.gif" class="media2" >    
+          </div>
+          <div class="row4column2">    
+            <p class="month">May 11, 2000</p>
+            <p class="event">Media Most, the parent company of Russia's<br>largest independent TV network, is raided. </p>
+            </div> 
+            <div class="row4column3">  
+               </div>  
+          </div>
+
+        
+          <div class="row5">   
+            <div class="row5column1"> <br>   
+            </div>
+            <div class="row5column2">    
+              <p class="month">June, 2000</p>
+              <p class="event">Vladimir Gusinsky, the owner of Media Most, is arrested. To get out, he gives control of the NTV independent channel to state-dominated gas monopoly Gazprom. </p>
+              </div> 
+              <div class="row5column3">  
+                <img src="media/3.gif" class="media3" >    
+
+                 </div>  
+            </div>
+  
+            <div class="row6">   
+              <div class="row6column1">  
+              </div>
+              <div class="row6column2">   
+                 </div> 
+                <div class="row6column3">   
+                   </div>  
+              </div> -->
+
+    </div>
+  </div>
+
+
+
+
+</body>
+</html>
